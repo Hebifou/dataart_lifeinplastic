@@ -10,12 +10,7 @@ Each glowing ring represents a *major ocean gyre* where plastic concentrates —
 ## Visualization
 
 ### Modeled Projection (GIF)
-![Life in Plastic – Projection](reports/figures/life_in_plastic.gif)
-
-### Static Keyframes
-| 2020 | 2090 |
-|------|------|
-| ![Start](reports/life_in_plastic_start.png) | ![End](reports/life_in_plastic_end.png) |
+![Life in Plastic – Projection](reports/plastic_pollution_animation_engl.gif)
 
 ---
 
