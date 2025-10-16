@@ -1,50 +1,62 @@
-# DataArt – Life in Plastic 
-*A visual data story about growth, consumption, and sustainability.*
+# Life in Plastic – Data Art Projection (2020–2090)
 
-This project transforms environmental growth data into a **data-art style visualization**.  
-Using simple geometric forms and smooth animation, it depicts the accelerating expansion  
-of plastic production over time — a metaphor for consumption and environmental impact.  
+**A data-driven art project visualizing the projected growth of oceanic plastic pollution under a “business-as-usual” scenario.**
 
----
-
-## Project Overview
-
-- **Goal:** Communicate data insights through minimalist, emotionally resonant visualization  
-- **Focus:** Visual storytelling, scaling data, and dynamic representation of change over time  
-- **Concept:**  
-  - Expanding **blue circle** → total global plastic index  
-  - Pulsing **pink ring** → brand-specific plastic growth  
-  - Gradual expansion to 2090 → future projection scenario  
+This notebook combines environmental data, scientific projections (NOAA, WWF, Ellen MacArthur Foundation) and minimalist design to create an animated visualization of how plastic waste may accumulate across the world’s oceans.  
+Each glowing ring represents a *major ocean gyre* where plastic concentrates — expanding gradually over time to symbolize linear growth in global plastic output.
 
 ---
 
-## Methods & Tools
+## Visualization
 
-| Category | Description |
-|-----------|--------------|
-| **Framework** | Python (Matplotlib Animation) |
-| **Visualization** | Circular growth metaphor (no map/cartopy) |
-| **Animation Export** | MP4 (via FFMpeg) or GIF (via Pillow fallback) |
-| **Output** | 2 static frames + 1 animation |
+### Modeled Projection (GIF)
+![Life in Plastic – Projection](reports/figures/life_in_plastic.gif)
+
+### Static Keyframes
+| 2020 | 2090 |
+|------|------|
+| ![Start](reports/life_in_plastic_start.png) | ![End](reports/life_in_plastic_end.png) |
 
 ---
 
-## Key Visuals
+## Concept
 
-| Visualization | Description |
-|----------------|-------------|
-| **Start Frame (2020)** | Initial state – small plastic footprint |
-| **End Frame (2090)** | Projected expansion and acceleration |
-| **Animated Projection** | Smooth transition from 2020–2090 |
+- **Goal:** Turn raw quantitative data into an emotionally resonant data art piece.  
+- **Model:** Linear extrapolation of plastic production growth, approx. +12 M tons per year (2020–2090).  
+- **Focus:** Great Pacific, North Atlantic, South Pacific, and Indian Ocean gyres.  
+- **Design:** Minimal dark-map style, glowing red-yellow highlights, and smooth radial animation.
 
-<p align="center">
-  <img src="reports/life_in_plastic_start.png" width="45%" />
-  <img src="reports/life_in_plastic_end.png" width="45%" />
-</p>
+---
 
-**Animation Preview (MP4 / GIF)**  
-> *(Click below to open the animation)*  
-[View animation](reports/life_in_plastic.mp4)
-> [High-quality MP4](reports/life_in_plastic.mp4
+## Tech Stack
 
+- **Python** · Matplotlib · Cartopy · Pillow · NumPy  
+- **Animation:** `matplotlib.animation.FuncAnimation`  
+- **Export formats:** `.mp4` (via ffmpeg) and `.gif` (via Pillow)
 
+---
+
+## Data Sources
+
+- **NOAA (2020–2025)** — Global marine debris and ocean plastic estimates.  
+- **WWF (2021)** — *Plastic in the Ocean* report.  
+- **Ellen MacArthur Foundation (2021)** — *Circular Economy of Plastics*.  
+- **Walmart ESG Report (2020)** — Corporate plastic packaging footprint.
+
+---
+
+## Author
+
+**Modeling & Visualization:** [Hiba Fouani](https://github.com/Hebifou)  
+*Made with Python, purpose, and a touch of data art.*
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE).  
+You are free to reuse, modify, or expand it with attribution.
+
+---
+
+> 💡 *Tip:* You can open and rerun the full notebook interactively on Google Colab using the badge above.
