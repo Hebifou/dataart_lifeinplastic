@@ -50,8 +50,5 @@ Each glowing ring represents a *major ocean gyre* where plastic concentrates —
 ## License
 
 This project is released under the [MIT License](LICENSE).  
-You are free to reuse, modify, or expand it with attribution.
 
 ---
-
-> 💡 *Tip:* You can open and rerun the full notebook interactively on Google Colab using the badge above.
