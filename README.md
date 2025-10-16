@@ -45,5 +45,6 @@ of plastic production over time — a metaphor for consumption and environmental
 **Animation Preview (MP4 / GIF)**  
 > *(Click below to open the animation)*  
 [View animation](reports/life_in_plastic.mp4)
+> [High-quality MP4](reports/life_in_plastic.mp4
 
 
