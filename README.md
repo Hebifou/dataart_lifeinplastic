@@ -3,6 +3,7 @@
 **A data-driven art project visualizing the projected growth of oceanic plastic pollution under a “business-as-usual” scenario.**
 
 This notebook combines environmental data, scientific projections (NOAA, WWF, Ellen MacArthur Foundation) and minimalist design to create an animated visualization of how plastic waste may accumulate across the world’s oceans.  
+
 Each glowing ring represents a *major ocean gyre* where plastic concentrates — expanding gradually over time to symbolize linear growth in global plastic output.
 
 ---
