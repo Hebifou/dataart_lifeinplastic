@@ -41,15 +41,3 @@ Each glowing ring represents a *major ocean gyre* where plastic concentrates —
 
 ---
 
-## Author
-
-**Modeling & Visualization:** [Hiba Fouani](https://github.com/Hebifou)  
-*Made with Python, purpose, and a touch of data art.*
-
----
-
-## License
-
-This project is released under the [MIT License](LICENSE).  
-
----
